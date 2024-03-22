@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <div className="navbar bg-neutral">
             <div className="navbar-start px-8">
-                <button className="btn btn-ghost text-xl text-text" onClick={() => navigate('/')}>Header</button>
+                <button className="btn btn-ghost text-xl text-base-100" onClick={() => navigate('/')}>Thomas Couteau</button>
             </div>
         </div>
     )
