@@ -1,10 +1,14 @@
 import React from 'react';
+import Hero from "../../components/Hero/Hero";
+import Timeline from "../../components/Timeline/Timeline";
 
 const Home = () => {
 
     return (
         <div className="container mx-auto">
-            <h1 className="text-4xl font-bold text-center my-8">Template React with daisyui</h1>
+            <Hero/>
+            <Timeline/>
+
         </div>
 
     );
