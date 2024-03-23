@@ -8,6 +8,7 @@ const Home = () => {
         <div className="container mx-auto">
             <Hero/>
             <Timeline/>
+
         </div>
 
     );
