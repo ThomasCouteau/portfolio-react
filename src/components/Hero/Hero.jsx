@@ -33,7 +33,7 @@ const Hero = ({timelineRef}) => {
                     <h1 className="text-5xl font-bold">I'm <span className="text-primary" ref={text}/></h1>
                     <p className="py-6">I'm a work-study student working in web development. I have 2 years experience
                         in the world of work.</p>
-                    <button className="btn btn-primary" onClick={onScrollToTimeline}>My Background</button>
+                    <button className="btn btn-primary text-base-100" onClick={onScrollToTimeline}>My Background</button>
                 </div>
             </div>
         </div>
