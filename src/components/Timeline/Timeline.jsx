@@ -5,7 +5,7 @@ const Timeline = forwardRef((props, ref) => {
         <div className="min-h-screen">
             <ul ref={ref} className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
                 <li>
-                    <div className="timeline-middle">
+                    <div className="timeline-middle text-accent">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
                              className="h-5 w-5">
                             <path fillRule="evenodd"
@@ -15,14 +15,14 @@ const Timeline = forwardRef((props, ref) => {
                     </div>
                     <div className="timeline-start md:text-end mb-10">
                         <time className="font-mono italic">2020</time>
-                        <div className="text-lg font-black">Scientific baccalaureate</div>
+                        <div className="text-lg text-primary font-black">Scientific baccalaureate</div>
                         I passed my scientific baccalauréat.
                     </div>
                     <hr/>
                 </li>
                 <li>
                     <hr/>
-                    <div className="timeline-middle">
+                    <div className="timeline-middle text-accent">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
                              className="h-5 w-5">
                             <path fillRule="evenodd"
@@ -32,7 +32,7 @@ const Timeline = forwardRef((props, ref) => {
                     </div>
                     <div className="timeline-end mb-10">
                         <time className="font-mono italic">7 June - 23 July 2021</time>
-                        <div className="text-lg font-black">6-week internship at SAS Isisphinx</div>
+                        <div className="text-lg font-black text-primary ">6-week internship at SAS Isisphinx</div>
                         Creation of a website in ReactJS. <br/>
                         System management of network infrastructure.
                     </div>
@@ -40,7 +40,7 @@ const Timeline = forwardRef((props, ref) => {
                 </li>
                 <li>
                     <hr/>
-                    <div className="timeline-middle">
+                    <div className="timeline-middle text-accent">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
                              className="h-5 w-5">
                             <path fillRule="evenodd"
@@ -50,7 +50,7 @@ const Timeline = forwardRef((props, ref) => {
                     </div>
                     <div className="timeline-start md:text-end mb-10">
                         <time className="font-mono italic">July 2022</time>
-                        <div className="text-lg font-black">BTS - Systèmes Numériques option Informatique et Réseaux
+                        <div className="text-lg font-black text-primary ">BTS - Systèmes Numériques option Informatique et Réseaux
                         </div>
                         I passed my advanced technician's certificate.
                     </div>
@@ -58,7 +58,7 @@ const Timeline = forwardRef((props, ref) => {
                 </li>
                 <li>
                     <hr/>
-                    <div className="timeline-middle">
+                    <div className="timeline-middle text-accent">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
                              className="h-5 w-5">
                             <path fillRule="evenodd"
@@ -68,7 +68,7 @@ const Timeline = forwardRef((props, ref) => {
                     </div>
                     <div className="timeline-end mb-10">
                         <time className="font-mono italic">September 2022 - September 2023</time>
-                        <div className="text-lg font-black">Licence Concepteur et Dévelopeur d'Application</div>
+                        <div className="text-lg font-black text-primary ">Licence Concepteur et Dévelopeur d'Application</div>
                         I did my degree in IT under a sandwich course at NEU-JKF Delta NEU. <br/> I had the opportunity
                         to
                         develop a web application using the Quasar framework (based on VueJS) and the FastAPI framework
@@ -84,7 +84,7 @@ const Timeline = forwardRef((props, ref) => {
                 </li>
                 <li>
                     <hr/>
-                    <div className="timeline-middle">
+                    <div className="timeline-middle text-accent">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
                              className="h-5 w-5">
                             <path fillRule="evenodd"
@@ -94,7 +94,7 @@ const Timeline = forwardRef((props, ref) => {
                     </div>
                     <div className="timeline-start md:text-end mb-10">
                         <time className="font-mono italic">September 2023 - Today</time>
-                        <div className="text-lg font-black">MASTER Expert Informatique et Système d'Information</div>
+                        <div className="text-lg font-black text-primary ">MASTER Expert Informatique et Système d'Information</div>
                         I am currently doing my master's degree in IT and Information Systems at NEU-JKF Delta NEU.
                     </div>
                 </li>
