@@ -9,7 +9,6 @@ const Home = () => {
         <div className="container mx-auto">
             <Hero timelineRef={timelineRef}/>
             <Timeline ref={timelineRef}/>
-
         </div>
 
     );

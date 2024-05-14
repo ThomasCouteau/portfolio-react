@@ -11,3 +11,4 @@ This template uses ReactJS and DaisyUI for styling with TailwindCSS. It also inc
 - [DaisyUI](https://daisyui.com/) is a component library for TailwindCSS
 - [TailwindCSS](https://tailwindcss.com/) is a utility-first CSS framework
 - [React Router](https://reactrouter.com/) is a declarative routing library for React
+- [TypedJS](https://github.com/mattboldt/typed.js) is a library for typing animations

@@ -1,9 +1,9 @@
 import React, {useEffect, useRef} from "react";
 import "./Hero.css"
 import Typed from 'typed.js';
+import AvatarGH from "../../assets/gh-pp.png"
 
 const Hero = ({timelineRef}) => {
-    const avatarGH = "https://avatars.githubusercontent.com/u/85634434"
     const text = useRef(null)
 
     useEffect(() => {
@@ -27,7 +27,7 @@ const Hero = ({timelineRef}) => {
     return (
         <div className="hero min-h-screen">
             <div className="hero-content flex-col lg:flex-row-reverse">
-                <img src={avatarGH}
+                <img src={AvatarGH}
                      className=" rounded-lg shadow-2xl"/>
                 <div>
                     <h1 className="text-5xl font-bold">I'm <span className="text-primary" ref={text}/></h1>
